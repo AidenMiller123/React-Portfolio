@@ -1,8 +1,10 @@
 import React from 'react';
+import  '../../styles/Section.css';
 
-export default function Blog() {
+export default function Resume() {
   return (
-    <div>
+    <div className='section container-fluid'>
+    <div className=''>
       <h1>Blog Page</h1>
       <p>
         Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
@@ -19,6 +21,7 @@ export default function Blog() {
         bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
         est ligula suscipit velit, sed bibendum turpis dui in sapien.
       </p>
+    </div>
     </div>
   );
 }

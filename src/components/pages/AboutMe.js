@@ -1,8 +1,9 @@
 import React from 'react';
+import  '../../styles/Section.css';
 
-export default function About() {
+export default function AboutMe() {
   return (
-    <div>
+    <div className='section container-fluid'>
       <h1>About Page</h1>
       <p>
         Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
