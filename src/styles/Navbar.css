@@ -1,0 +1,45 @@
+.navbar{
+    height: 200px;
+    background-image: url('/public/Monthly-Website.jpg');
+    
+}
+
+.headerText{
+    font-size: 100px;
+    margin-left: 55px;
+    font-family: 'Bruno Ace SC', cursive;
+    color: white;
+   
+}
+
+.nav-item{
+    font-size: 35px;
+    padding-left: 20px;
+    padding-right: 50px;
+    font-family: 'Bruno Ace SC', cursive;
+   
+}
+
+.nav{
+    margin-right: 5px;
+}
+
+.nav-item a{
+    color: white;
+}
+
+.nav-item:hover {
+    text-decoration: underline white;
+}
+
+.nav-item a:hover{
+    color: white;
+}
+
+.nav-item a::after {
+    color: white
+}
+
+.nav-item a:visited{
+    color: white;
+}

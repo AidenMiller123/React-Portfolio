@@ -1,8 +1,9 @@
 import React from 'react';
+import  '../../styles/Section.css';
 
-export default function Home() {
+export default function Portfolio() {
   return (
-    <div>
+    <div className='section container-fluid'>
       <h1>Home Page</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
