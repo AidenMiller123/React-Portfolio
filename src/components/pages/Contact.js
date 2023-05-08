@@ -1,23 +1,35 @@
 import React from 'react';
-import  '../../styles/Section.css';
+import '../../styles/Section.css';
 
 export default function Contact() {
-  return (
-    <div className='section container-fluid'>
-      <h1>Contact Page</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
-    </div>
-  );
+    return (
+        <div className='section container-fluid '>
+            <div className='Containers'>
+                <h1 className='pb-4'>Contact</h1>
+                <form className="form  d-flex flex-column contactForm  ">
+                    <div className="form-group pb-2">
+                        <label htmlFor="post-title">Name: </label>
+                    </div>
+                    <div className="form-group pb-2">
+                        <input className="form-input " type="text" id="contact-name" />
+                    </div>
+                    <div className="form-group pb-2 ">
+                        <label htmlFor="post-title">Email address: </label>
+                    </div>
+                    <div className="form-group pb-2 ">
+                        <input className="form-input " type="email" id="contact-email" />
+                    </div>
+                    <div className="form-group pb-2">
+                        <label htmlFor="postContent">Message:</label>
+                    </div>
+                    <div className="form-group pb-2">
+                        <textarea className="form-input " type="text" id="contactContent"></textarea>
+                    </div>
+                    <div className="form-group d-grid">
+                        <button className="btn btn-block btn-info postBtn " type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    );
 }
