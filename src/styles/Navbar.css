@@ -36,10 +36,12 @@
     color: white;
 }
 
-.nav-item a::after {
-    color: white
-}
 
 .nav-item a:visited{
     color: white;
+}
+
+
+.nav-link.active {
+    filter: opacity(50%);
 }
