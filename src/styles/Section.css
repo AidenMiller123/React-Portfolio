@@ -1,9 +1,17 @@
+ html {
+    background-color:  #203A5C;
+
+}
+
+
 .section{
     background-color:  #203A5C;
     color: white;
-    height: 100vh;
 }
 
+.footer{
+    background-color:  #203A5C;
+}
 .contactForm{
     width: 500px;
     font-size: 20px;
@@ -38,11 +46,617 @@ textarea {
     padding-right: 250px;
 }
 
-/* .aboutMeHeader{
-    font-size: 55px;
-} */
+.aboutMeHeader{
+    font-family: 'Bruno Ace SC', cursive;
+}
 
 .aboutMeContent{
     font-size: 25px;
     text-align: left;
+}
+
+.portfolio-title{
+    font-family: 'Bruno Ace SC', cursive;
+}
+
+.contact-title{
+    font-family: 'Bruno Ace SC', cursive;
+}
+
+.resume-title{
+    font-family: 'Bruno Ace SC', cursive;
+}
+
+.work-content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px 40px;
+    padding-top: 20px;
+}
+
+.card-prework{
+    background-image: url("../images/prework-study-guide.png");
+    width: 700px;
+    height: 400px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 0;
+    position: relative;
+    border: solid #0072bb;
+    border-width: medium;
+}
+
+.card-password {
+    background-image: url("../images/Password.png");
+    width: 700px;
+    height: 400px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 0;
+    position: relative;
+    border: solid #0072bb;
+    border-width: medium;
+
+}
+
+.card-pokedex {
+    background-image: url("../images/Pokedex.png");
+    width: 700px;
+    height: 400px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 0;
+    position: relative;
+    border: solid #0072bb;
+    border-width: medium;
+
+}
+
+.card-quiz {
+    background-image: url("../images/quiz.png");
+    width: 700px;
+    height: 400px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 0;
+    position: relative;
+    border: solid #0072bb;
+    border-width: medium;
+
+}
+.card-weather {
+    background-image: url("../images/Weather.png");
+    width: 700px;
+    height: 400px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 0;
+    position: relative;
+    border: solid #0072bb;
+    border-width: medium;
+
+}
+.card-bloodDonation{
+    background-image: url("../images/Blood.png");
+    width: 700px;
+    height: 400px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 0;
+    position: relative;
+    border: solid #0072bb;
+    border-width: medium;
+
+}
+
+.card-techBlog{
+    background-image: url("../images/tech-blog.png");
+    width: 700px;
+    height: 400px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 0;
+    position: relative;
+    border: solid #0072bb;
+    border-width: medium;
+}
+
+.card-pokedex a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+.card-pokedex a  h3{
+    display: none;
+    filter:opacity(50%);
+    color: #6aa7f7;
+}
+
+.card-pokedex a  a{
+    display: none;
+    filter: brightness(200%);
+}
+
+.card-pokedex a  h4{
+    display: none;
+}
+
+.card-pokedex a  h3:hover{
+   filter: opacity(100%);
+}
+
+.card-pokedex a:hover  h3{
+    display: block;
+    font-size: 45px;
+    padding-top: 50px;
+    color: #0d294e;
+}
+
+.card-pokedex a:hover  a{
+    display: block;
+    padding-top: 50px;
+    padding-left: 35px;
+    filter: opacity(50%);
+}
+
+.card-pokedex a:hover  a:hover{
+    filter: opacity(100%);
+}
+
+
+.card-pokedex a:hover  h3 img{
+    height: 95px;
+    width: 95px;
+}
+
+.card-pokedex a:hover  h4{
+    display: block;
+    font-size: 35px;
+    padding-top: 50px;
+    color: #0d294e;
+}
+
+.card-pokedex:hover  {
+    background-image: 
+    /* top, transparent red */
+    linear-gradient(
+      rgba(255, 255, 255, 0.45), 
+      rgba(255, 255, 255, 0.45)
+    ),
+    /* your image */
+    url("../images/Pokedex.png");
+}
+
+.card-prework a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+.card-prework a  a{
+    display: none;
+    filter: brightness(200%);
+}
+
+.card-prework a  h4{
+    display: none;
+}
+
+.card-prework:hover{
+    background-image: 
+    /* top, transparent red */
+    linear-gradient(
+      rgba(255, 255, 255, 0.45), 
+      rgba(255, 255, 255, 0.45)
+    ),
+    /* your image */
+    url("../images/prework-study-guide.png");
+    background-size: cover;
+    background-position: center center;
+}
+
+.card-prework a h3{
+   display: none;
+    filter:opacity(50%);
+    color: #6aa7f7;
+}
+
+.card-prework a  h3:hover{
+   filter: opacity(100%);
+}
+
+.card-prework a:hover h3{
+ display: block;
+    font-size: 45px;
+    padding-top: 50px;
+    color: #0d294e;
+   
+}
+
+.card-prework a:hover  a{
+    display: block;
+    padding-top: 60px;
+    padding-left: 35px;
+    filter: opacity(50%);
+}
+
+.card-prework a:hover  a:hover{
+    filter: opacity(100%);
+}
+
+.card-prework a:hover  h3 img{
+    height: 10px;
+    width: 10px;
+}
+
+.card-prework a:hover  h4{
+    display: block;
+    font-size: 35px;
+    padding-top: 50px;
+    color: #0d294e;
+}
+
+.card-password a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+.card-password a h3{
+    display: none;
+    filter:opacity(50%);
+    color: #6aa7f7;
+}
+
+.card-password a  a{
+    display: none;
+    filter: brightness(200%);
+}
+
+.card-password a  h4{
+    display: none;
+}
+
+.card-password a  h3:hover{
+    filter: opacity(100%);
+ }
+
+.card-password a:hover h3{
+    display: block;
+    font-size: 45px;
+    padding-top: 50px;
+    color: #0d294e;
+}
+
+.card-password a:hover  a{
+    display: block;
+    padding-top: 60px;
+    padding-left: 35px;
+    filter: opacity(50%);
+}
+
+.card-password a:hover  a:hover{
+    filter: opacity(100%);
+}
+
+.card-password a:hover  h4{
+    display: block;
+    font-size: 35px;
+    padding-top: 50px;
+    color: #0d294e;
+}
+
+.card-password:hover  {
+    background-image: 
+    /* top, transparent red */
+    linear-gradient(
+      rgba(255, 255, 255, 0.45), 
+      rgba(255, 255, 255, 0.45)
+    ),
+    /* your image */
+    url("../images/Password.png");
+}
+
+
+.card-quiz a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+.card-quiz a h3 {
+    display: none;
+    filter:opacity(50%);
+    color: #6aa7f7;
+}
+
+.card-quiz a  a{
+    display: none;
+    filter: brightness(200%);
+}
+
+.card-quiz a  h4{
+    display: none;
+}
+
+.card-quiz a  h3:hover{
+    filter: opacity(100%);
+ }
+ 
+
+.card-quiz a:hover h3 {
+    display: block;
+    font-size: 45px;
+    padding-top: 50px;
+    color: #0d294e;
+}
+.card-quiz a:hover  a{
+    display: block;
+    padding-top: 50px;
+    padding-left: 35px;
+    filter: opacity(50%);
+}
+
+.card-quiz a:hover  a:hover{
+    filter: opacity(100%);
+}
+
+
+.card-quiz a:hover  h3 img{
+    height: 95px;
+    width: 95px;
+}
+
+.card-quiz a:hover  h4{
+    display: block;
+    font-size: 35px;
+    padding-top: 50px;
+    color: #0d294e;
+}
+
+.card-quiz:hover  {
+    background-image: 
+    /* top, transparent red */
+    linear-gradient(
+      rgba(255, 255, 255, 0.45), 
+      rgba(255, 255, 255, 0.45)
+    ),
+    /* your image */
+    url("../images/quiz.png");
+}
+
+
+.card-weather a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+.card-weather a  h3{
+    display: none;
+    filter:opacity(50%);
+    color: #6aa7f7;
+}
+
+.card-weather a  a{
+    display: none;
+    filter: brightness(200%);
+}
+
+.card-weather a  h4{
+    display: none;
+}
+
+.card-weather a  h3:hover{
+   filter: opacity(100%);
+}
+
+.card-weather a:hover  h3{
+    display: block;
+    font-size: 45px;
+    padding-top: 50px;
+    color: #0d294e;
+}
+
+.card-weather a:hover  a{
+    display: block;
+    padding-top: 50px;
+    padding-left: 35px;
+    filter: opacity(50%);
+}
+
+.card-weather a:hover  a:hover{
+    filter: opacity(100%);
+}
+
+
+.card-weather a:hover  h3 img{
+    height: 95px;
+    width: 95px;
+}
+
+.card-weather a:hover  h4{
+    display: block;
+    font-size: 35px;
+    padding-top: 50px;
+    color: #0d294e;
+}
+
+.card-weather:hover  {
+    background-image: 
+    /* top, transparent red */
+    linear-gradient(
+      rgba(255, 255, 255, 0.45), 
+      rgba(255, 255, 255, 0.45)
+    ),
+    /* your image */
+    url("../images/Weather.png");
+}
+
+.card-bloodDonation a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+.card-bloodDonation a h3{
+    display: none;
+    filter:opacity(50%);
+    color: #6aa7f7;
+}
+
+.card-bloodDonation a  a{
+    display: none;
+    filter: brightness(200%);
+}
+
+.card-bloodDonation a  h4{
+    display: none;
+}
+
+.card-bloodDonation a  h3:hover{
+   filter: opacity(100%);
+}
+
+.card-bloodDonation a:hover  h3{
+    display: block;
+    font-size: 45px;
+    padding-top: 50px;
+    color: #0d294e;
+}
+
+.card-bloodDonation a:hover  a{
+    display: block;
+    padding-top: 50px;
+    padding-left: 35px;
+    filter: opacity(50%);
+}
+
+.card-bloodDonation a:hover  a:hover{
+    filter: opacity(100%);
+}
+
+
+.card-bloodDonation a:hover  h3 img{
+    height: 95px;
+    width: 95px;
+}
+
+.card-bloodDonation a:hover  h4{
+    display: block;
+    font-size: 35px;
+    padding-top: 50px;
+    color: #0d294e;
+}
+
+.card-bloodDonation:hover  {
+    background-image: 
+    /* top, transparent red */
+    linear-gradient(
+      rgba(255, 255, 255, 0.45), 
+      rgba(255, 255, 255, 0.45)
+    ),
+    /* your image */
+    url("../images/Blood.png");
+}
+
+.card-techBlog a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+.card-techBlog a  h3{
+    display: none;
+    filter:opacity(50%);
+    color: #6aa7f7;
+}
+
+.card-techBlog a  a{
+    display: none;
+    filter: brightness(200%);
+}
+
+.card-techBlog a  h4{
+    display: none;
+}
+
+.card-techBlog a  h3:hover{
+   filter: opacity(100%);
+}
+
+.card-techBlog a:hover  h3{
+    display: block;
+    font-size: 45px;
+    padding-top: 50px;
+    color: #0d294e;
+}
+
+.card-techBlog a:hover  a{
+    display: block;
+    padding-top: 50px;
+    padding-left: 35px;
+    filter: opacity(50%);
+}
+
+.card-techBlog a:hover  a:hover{
+    filter: opacity(100%);
+}
+
+
+.card-techBlog a:hover  h3 img{
+    height: 95px;
+    width: 95px;
+}
+
+.card-techBlog a:hover  h4{
+    display: block;
+    font-size: 35px;
+    padding-top: 50px;
+    color: #0d294e;
+}
+
+.card-techBlog:hover  {
+    background-image: 
+    /* top, transparent red */
+    linear-gradient(
+      rgba(255, 255, 255, 0.45), 
+      rgba(255, 255, 255, 0.45)
+    ),
+    /* your image */
+    url("../images/tech-blog.png");
+}
+
+
+.portfolioContainers{
+    padding-left: 250px;
+    padding-top: 25px;
+    padding-right: 5px;
+}
+
+.github-logo{
+    width: 100px;
+    height: 100px;
 }

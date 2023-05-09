@@ -5,7 +5,7 @@ export default function Resume() {
   return (
     <div className='section container-fluid'>
     <div className=''>
-      <h1>Blog Page</h1>
+      <h1 className='resume-title'>Resume</h1>
       <p>
         Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
         Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
