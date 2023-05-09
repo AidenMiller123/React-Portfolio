@@ -5,7 +5,7 @@ export default function Contact() {
     return (
         <div className='section container-fluid '>
             <div className='Containers'>
-                <h1 className='pb-4'>Contact</h1>
+                <h1 className='pb-4 contact-title'>Contact</h1>
                 <form className="form  d-flex flex-column contactForm  ">
                     <div className="form-group pb-2">
                         <label htmlFor="post-title">Name: </label>

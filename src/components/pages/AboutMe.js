@@ -8,7 +8,7 @@ export default function AboutMe() {
       <div className='d-flex flex-column Containers align-items-start'>
         <h1 className='aboutMeHeader'>About Me</h1>
         <img src={profile} alt="Avatar" className='profile'></img>
-        <div className='aboutMeContent'>
+        <div className='aboutMeContent pb-5'>
           <div className='pb-5 pt-5'>
             Hi there! My name is Aiden Miller, and I am a resident of Huntersville. I am currently attending a Full Stack Coding Bootcamp with the goal of becoming a certified 
             Full Stack Developer. The bootcamp has been a challenging yet rewarding experience that has allowed me to learn various programming languages including HTML, 

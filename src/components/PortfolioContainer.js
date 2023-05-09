@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
 import NavTabs from './NavTabs';
+import Footer from './Footer'
 import Portfolio from './pages/Portfolio';
 import AboutMe from './pages/AboutMe';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
 
 export default function PortfolioContainer() {
-  const [currentPage, setCurrentPage] = useState('Portfolio');
+  const [currentPage, setCurrentPage] = useState('AboutMe');
 
   // TODO: Add a comment describing the functionality of this method
   const renderPage = () => {
@@ -32,6 +33,9 @@ export default function PortfolioContainer() {
       </div>
       {/* // TODO: Add a comment explaining what is happening on the following line */}
       {renderPage()}
+      <div className=''>
+        <Footer />
+      </div>
     </div>
   );
 }
