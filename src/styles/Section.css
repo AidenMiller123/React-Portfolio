@@ -196,61 +196,67 @@ textarea {
     border-width: medium;
 }
 
-.card-pokedex a {
+.card-pokedex .port-container {
     display: block;
     width: 100%;
     height: 100%;
     text-decoration: none;
 }
 
-.card-pokedex a  h3{
+.card-pokedex .port-container  .title-port{
     display: none;
     filter:opacity(50%);
     color: #6aa7f7;
 }
 
-.card-pokedex a  a{
+.card-pokedex .port-container  .logo-portfolio{
     display: none;
     filter: brightness(200%);
 }
 
-.card-pokedex a  h4{
+.card-pokedex .port-container  h4{
     display: none;
 }
 
-.card-pokedex a  h3:hover{
+.card-pokedex .port-container  .title-port:hover{
    filter: opacity(100%);
 }
 
-.card-pokedex a:hover  h3{
+.card-pokedex .port-container:hover  .title-port{
     display: block;
     font-size: 45px;
     padding-top: 50px;
     color: #0d294e;
 }
 
-.card-pokedex a:hover  a{
+.card-pokedex .port-container:hover  .logo-portfolio{
     display: block;
     padding-top: 50px;
     padding-left: 35px;
     filter: opacity(50%);
 }
 
-.card-pokedex a:hover  a:hover{
+.card-pokedex .port-container:hover  .logo-portfolio:hover{
     filter: opacity(100%);
 }
 
 
-.card-pokedex a:hover  h3 img{
+.card-pokedex .port-container:hover  .title-port img{
     height: 95px;
     width: 95px;
 }
 
-.card-pokedex a:hover  h4{
+.card-pokedex .port-container:hover  h4{
     display: block;
     font-size: 35px;
     padding-top: 50px;
     color: #0d294e;
+}
+
+.card-pokedex .title-port{
+    text-decoration: none;
+    font-size: 45px;
+    font-weight: bold;
 }
 
 .card-pokedex:hover  {
@@ -265,19 +271,25 @@ textarea {
     url("../images/pokedex-gif.gif");
 }
 
-.card-prework a {
+.card-prework .port-container {
     display: block;
     width: 100%;
     height: 100%;
     text-decoration: none;
 }
 
-.card-prework a  a{
+.card-prework .title-port{
+    text-decoration: none;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.card-prework .port-container  .logo-portfolio{
     display: none;
     filter: brightness(200%);
 }
 
-.card-prework a  h4{
+.card-prework .port-container  h4{
     display: none;
 }
 
@@ -295,17 +307,17 @@ textarea {
     background-position: center center;
 }
 
-.card-prework a h3{
+.card-prework .port-container .title-port{
    display: none;
     filter:opacity(50%);
     color: #6aa7f7;
 }
 
-.card-prework a  h3:hover{
+.card-prework .port-container  .title-port:hover{
    filter: opacity(100%);
 }
 
-.card-prework a:hover h3{
+.card-prework .port-container:hover .title-port{
  display: block;
     font-size: 45px;
     padding-top: 50px;
@@ -313,74 +325,80 @@ textarea {
    
 }
 
-.card-prework a:hover  a{
+.card-prework .port-container:hover  .logo-portfolio{
     display: block;
     padding-top: 60px;
     padding-left: 35px;
     filter: opacity(50%);
 }
 
-.card-prework a:hover  a:hover{
+.card-prework .port-container:hover  .logo-portfolio:hover{
     filter: opacity(100%);
 }
 
-.card-prework a:hover  h3 img{
+.card-prework .port-container:hover  .title-port img{
     height: 10px;
     width: 10px;
 }
 
-.card-prework a:hover  h4{
+.card-prework .port-container:hover  h4{
     display: block;
     font-size: 35px;
     padding-top: 50px;
     color: #0d294e;
 }
 
-.card-password a {
+.card-password .title-port{
+    text-decoration: none;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.card-password .port-container {
     display: block;
     width: 100%;
     height: 100%;
     text-decoration: none;
 }
 
-.card-password a h3{
+.card-password .port-container .title-port{
     display: none;
     filter:opacity(50%);
     color: #6aa7f7;
 }
 
-.card-password a  a{
+.card-password .port-container  .logo-portfolio{
     display: none;
     filter: brightness(200%);
 }
 
-.card-password a  h4{
+.card-password .port-container  h4{
     display: none;
 }
 
-.card-password a  h3:hover{
+.card-password .port-container  .title-port:hover{
     filter: opacity(100%);
  }
 
-.card-password a:hover h3{
+.card-password .port-container:hover .title-port{
     display: block;
     font-size: 45px;
     padding-top: 50px;
     color: #0d294e;
 }
 
-.card-password a:hover  a{
+.card-password .port-container:hover  .logo-portfolio{
     display: block;
     padding-top: 60px;
     padding-left: 35px;
     filter: opacity(50%);
 }
 
-.card-password a:hover  a:hover{
+.card-password .port-container:hover  .logo-portfolio:hover{
     filter: opacity(100%);
 }
 
-.card-password a:hover  h4{
+.card-password .port-container:hover  h4{
     display: block;
     font-size: 35px;
     padding-top: 50px;
@@ -399,58 +417,63 @@ textarea {
     url("../images/password-gif.gif");
 }
 
+.card-quiz .title-port{
+    text-decoration: none;
+    font-size: 45px;
+    font-weight: bold;
+}
 
-.card-quiz a {
+.card-quiz .port-container {
     display: block;
     width: 100%;
     height: 100%;
     text-decoration: none;
 }
 
-.card-quiz a h3 {
+.card-quiz .port-container .title-port {
     display: none;
     filter:opacity(50%);
     color: #6aa7f7;
 }
 
-.card-quiz a  a{
+.card-quiz .port-container .logo-portfolio{
     display: none;
     filter: brightness(200%);
 }
 
-.card-quiz a  h4{
+.card-quiz .port-container  h4{
     display: none;
 }
 
-.card-quiz a  h3:hover{
+.card-quiz .port-container  .title-port:hover{
     filter: opacity(100%);
  }
  
 
-.card-quiz a:hover h3 {
+.card-quiz .port-container:hover .title-port {
     display: block;
     font-size: 45px;
     padding-top: 50px;
     color: #0d294e;
 }
-.card-quiz a:hover  a{
+.card-quiz .port-container:hover  .logo-portfolio{
     display: block;
     padding-top: 50px;
     padding-left: 35px;
     filter: opacity(50%);
 }
 
-.card-quiz a:hover  a:hover{
+.card-quiz .port-container:hover  .logo-portfolio:hover{
     filter: opacity(100%);
 }
 
 
-.card-quiz a:hover  h3 img{
+.card-quiz .port-container:hover  .title-port img{
     height: 95px;
     width: 95px;
 }
 
-.card-quiz a:hover  h4{
+.card-quiz .port-container:hover  h4{
     display: block;
     font-size: 35px;
     padding-top: 50px;
@@ -470,57 +493,63 @@ textarea {
 }
 
 
-.card-weather a {
+.card-weather .title-port{
+    text-decoration: none;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.card-weather .port-container {
     display: block;
     width: 100%;
     height: 100%;
     text-decoration: none;
 }
 
-.card-weather a  h3{
+.card-weather .port-container  .title-port{
     display: none;
     filter:opacity(50%);
     color: #6aa7f7;
 }
 
-.card-weather a  a{
+.card-weather .port-container .logo-portfolio{
     display: none;
     filter: brightness(200%);
 }
 
-.card-weather a  h4{
+.card-weather .port-container  h4{
     display: none;
 }
 
-.card-weather a  h3:hover{
+.card-weather .port-container  .title-port:hover{
    filter: opacity(100%);
 }
 
-.card-weather a:hover  h3{
+.card-weather .port-container:hover  .title-port{
     display: block;
     font-size: 45px;
     padding-top: 50px;
     color: #0d294e;
 }
 
-.card-weather a:hover  a{
+.card-weather .port-container:hover  .logo-portfolio{
     display: block;
     padding-top: 50px;
     padding-left: 35px;
     filter: opacity(50%);
 }
 
-.card-weather a:hover  a:hover{
+.card-weather .port-container:hover  .logo-portfolio:hover{
     filter: opacity(100%);
 }
 
 
-.card-weather a:hover  h3 img{
+.card-weather .port-container:hover  .title-port img{
     height: 95px;
     width: 95px;
 }
 
-.card-weather a:hover  h4{
+.card-weather .port-container:hover  h4{
     display: block;
     font-size: 35px;
     padding-top: 50px;
@@ -539,57 +568,63 @@ textarea {
     url("../images/Weather.png");
 }
 
-.card-bloodDonation a {
+.card-bloodDonation .title-port{
+    text-decoration: none;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.card-bloodDonation .port-container {
     display: block;
     width: 100%;
     height: 100%;
     text-decoration: none;
 }
 
-.card-bloodDonation a h3{
+.card-bloodDonation .port-container .title-port{
     display: none;
     filter:opacity(50%);
     color: #6aa7f7;
 }
 
-.card-bloodDonation a  a{
+.card-bloodDonation .port-container  .logo-portfolio{
     display: none;
     filter: brightness(200%);
 }
 
-.card-bloodDonation a  h4{
+.card-bloodDonation .port-container  h4{
     display: none;
 }
 
-.card-bloodDonation a  h3:hover{
+.card-bloodDonation .port-container  .title-port:hover{
    filter: opacity(100%);
 }
 
-.card-bloodDonation a:hover  h3{
+.card-bloodDonation .port-container:hover  .title-port{
     display: block;
     font-size: 45px;
     padding-top: 50px;
     color: #0d294e;
 }
 
-.card-bloodDonation a:hover  a{
+.card-bloodDonation .port-container:hover  .logo-portfolio{
     display: block;
     padding-top: 50px;
     padding-left: 35px;
     filter: opacity(50%);
 }
 
-.card-bloodDonation a:hover  a:hover{
+.card-bloodDonation .port-container:hover  .logo-portfolio:hover{
     filter: opacity(100%);
 }
 
 
-.card-bloodDonation a:hover  h3 img{
+.card-bloodDonation .port-container:hover  .title-port img{
     height: 95px;
     width: 95px;
 }
 
-.card-bloodDonation a:hover  h4{
+.card-bloodDonation .port-container:hover  h4{
     display: block;
     font-size: 35px;
     padding-top: 50px;
@@ -608,57 +643,63 @@ textarea {
     url("../images/Blood.png");
 }
 
-.card-techBlog a {
+.card-techBlog .title-port{
+    text-decoration: none;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.card-techBlog .port-container {
     display: block;
     width: 100%;
     height: 100%;
     text-decoration: none;
 }
 
-.card-techBlog a  h3{
+.card-techBlog .port-container  .title-port{
     display: none;
     filter:opacity(50%);
     color: #6aa7f7;
 }
 
-.card-techBlog a  a{
+.card-techBlog .port-container  .logo-portfolio{
     display: none;
     filter: brightness(200%);
 }
 
-.card-techBlog a  h4{
+.card-techBlog .port-container  h4{
     display: none;
 }
 
-.card-techBlog a  h3:hover{
+.card-techBlog .port-container  .title-port:hover{
    filter: opacity(100%);
 }
 
-.card-techBlog a:hover  h3{
+.card-techBlog .port-container:hover  .title-port{
     display: block;
     font-size: 45px;
     padding-top: 50px;
     color: #0d294e;
 }
 
-.card-techBlog a:hover  a{
+.card-techBlog .port-container:hover  .logo-portfolio{
     display: block;
     padding-top: 50px;
     padding-left: 35px;
     filter: opacity(50%);
 }
 
-.card-techBlog a:hover  a:hover{
+.card-techBlog .port-container:hover  .logo-portfolio:hover{
     filter: opacity(100%);
 }
 
 
-.card-techBlog a:hover  h3 img{
+.card-techBlog .port-container:hover  .title-port img{
     height: 95px;
     width: 95px;
 }
 
-.card-techBlog a:hover  h4{
+.card-techBlog .port-container:hover  h4{
     display: block;
     font-size: 35px;
     padding-top: 50px;
@@ -677,57 +718,63 @@ textarea {
     url("../images/blog-gif.gif");
 }
 
-.card-workday a {
+.card-workday .title-port{
+    text-decoration: none;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.card-workday .port-container {
     display: block;
     width: 100%;
     height: 100%;
     text-decoration: none;
 }
 
-.card-workday a  h3{
+.card-workday .port-container .title-port{
     display: none;
     filter:opacity(50%);
     color: #6aa7f7;
 }
 
-.card-workday a  a{
+.card-workday .port-container .logo-portfolio{
     display: none;
     filter: brightness(200%);
 }
 
-.card-workday a  h4{
+.card-workday .port-container  h4{
     display: none;
 }
 
-.card-workday a  h3:hover{
+.card-workday .port-container .title-port:hover{
    filter: opacity(100%);
 }
 
-.card-workday a:hover  h3{
+.card-workday .port-container:hover  .title-port{
     display: block;
     font-size: 45px;
     padding-top: 50px;
     color: #0d294e;
 }
 
-.card-workday a:hover  a{
+.card-workday .port-container:hover .logo-portfolio{
     display: block;
     padding-top: 50px;
     padding-left: 35px;
     filter: opacity(50%);
 }
 
-.card-workday a:hover  a:hover{
+.card-workday .port-container:hover  .logo-portfolio:hover{
     filter: opacity(100%);
 }
 
 
-.card-workday a:hover  h3 img{
+.card-workday .port-container:hover  .title-port img{
     height: 95px;
     width: 95px;
 }
 
-.card-workday a:hover  h4{
+.card-workday .port-container:hover  h4{
     display: block;
     font-size: 35px;
     padding-top: 50px;
@@ -747,57 +794,63 @@ textarea {
 }
 
 
-.card-note a {
+.card-note .title-port{
+    text-decoration: none;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.card-note .port-container {
     display: block;
     width: 100%;
     height: 100%;
     text-decoration: none;
 }
 
-.card-note a  h3{
+.card-note .port-container .title-port{
     display: none;
     filter:opacity(50%);
     color: #6aa7f7;
 }
 
-.card-note a  a{
+.card-note .port-container  .logo-portfolio{
     display: none;
     filter: brightness(200%);
 }
 
-.card-note a  h4{
+.card-note .port-container h4{
     display: none;
 }
 
-.card-note a  h3:hover{
+.card-note .port-container .title-port:hover{
    filter: opacity(100%);
 }
 
-.card-note a:hover  h3{
+.card-note .port-container:hover  .title-port{
     display: block;
     font-size: 45px;
     padding-top: 50px;
     color: #0d294e;
 }
 
-.card-note a:hover  a{
+.card-note .port-container:hover  .logo-portfolio{
     display: block;
     padding-top: 50px;
     padding-left: 35px;
     filter: opacity(50%);
 }
 
-.card-note a:hover  a:hover{
+.card-note .port-container:hover  .logo-portfolio:hover{
     filter: opacity(100%);
 }
 
 
-.card-note a:hover  h3 img{
+.card-note .port-container:hover  .title-port img{
     height: 95px;
     width: 95px;
 }
 
-.card-note a:hover  h4{
+.card-note .port-container:hover  h4{
     display: block;
     font-size: 35px;
     padding-top: 50px;
