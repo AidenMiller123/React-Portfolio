@@ -196,6 +196,19 @@ textarea {
     border-width: medium;
 }
 
+.card-vitality{
+    background-image: url("../images/vitality-vault.png");
+    width: 700px;
+    height: 400px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 0;
+    position: relative;
+    border-width: medium;
+}
+
 .card-pokedex .port-container {
     display: block;
     width: 100%;
@@ -867,6 +880,81 @@ textarea {
     ),
     /* your image */
     url("../images/note-taker.png");
+}
+
+.card-vitality .port-container {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+.card-vitality .port-container  .title-port{
+    display: none;
+    filter:opacity(50%);
+    color: #6aa7f7;
+}
+
+.card-vitality .port-container  .logo-portfolio{
+    display: none;
+    filter: brightness(200%);
+}
+
+.card-vitality .port-container  h4{
+    display: none;
+}
+
+.card-vitality .port-container  .title-port:hover{
+   filter: opacity(100%);
+}
+
+.card-vitality .port-container:hover  .title-port{
+    display: block;
+    font-size: 45px;
+    padding-top: 50px;
+    color: #0d294e;
+}
+
+.card-vitality .port-container:hover  .logo-portfolio{
+    display: block;
+    padding-top: 50px;
+    padding-left: 35px;
+    filter: opacity(50%);
+}
+
+.card-vitality .port-container:hover  .logo-portfolio:hover{
+    filter: opacity(100%);
+}
+
+
+.card-vitality .port-container:hover  .title-port img{
+    height: 95px;
+    width: 95px;
+}
+
+.card-vitality .port-container:hover  h4{
+    display: block;
+    font-size: 35px;
+    padding-top: 50px;
+    color: #0d294e;
+}
+
+.card-vitality .title-port{
+    text-decoration: none;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.card-vitality:hover  {
+    border: solid rgb(223, 145, 2);
+    background-image: 
+    /* top, transparent red */
+    linear-gradient(
+      rgba(255, 255, 255, 0.45), 
+      rgba(255, 255, 255, 0.45)
+    ),
+    /* your image */
+    url("../images/vitality-vault.png");
 }
 
 

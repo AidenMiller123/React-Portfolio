@@ -108,6 +108,17 @@ export default function Portfolio() {
               </div>
             </div>
           </section>
+          <section className="card-vitality">
+            <div className='port-container'>
+              <div className="text-box">
+                <a href="https://vitality-vault.herokuapp.com/" alt="Note Taker" title="Note Taker" target="_blank" rel="noopener noreferrer" className='title-port'>Vitality Vault </a>
+                <a className="me-4 logo-portfolio" href="https://github.com/csnyder94/vitality-vault" target="_blank" rel="noopener noreferrer"><img src={logo} alt='Github Logo' className='github-logo portfolio-logo'></img></a>
+              </div>
+              <div>
+                <h4>MERN Stack</h4>
+              </div>
+            </div>
+          </section>
         </section>
       </div>
     </div>
