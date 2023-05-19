@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.2f039fb3.css",
-    "main.js": "/React-Portfolio/static/js/main.5ba0b809.js",
+    "main.css": "/React-Portfolio/static/css/main.49279558.css",
+    "main.js": "/React-Portfolio/static/js/main.f7726899.js",
     "static/media/Blood.png": "/React-Portfolio/static/media/Blood.84c7d8c3d266bbefcddd.png",
     "static/media/pokedex-gif.gif": "/React-Portfolio/static/media/pokedex-gif.c2a02567b7dabdcdf46a.gif",
     "static/media/coding-gif.gif": "/React-Portfolio/static/media/coding-gif.46dc6e8ce87c971e2ae0.gif",
@@ -11,17 +11,18 @@
     "static/media/blog-gif.gif": "/React-Portfolio/static/media/blog-gif.4ac69580778eeaf89996.gif",
     "static/media/Weather.png": "/React-Portfolio/static/media/Weather.b1dcd43ca22514bbbcc1.png",
     "static/media/workday-gif.gif": "/React-Portfolio/static/media/workday-gif.614ec5d70c0c5ba38db0.gif",
+    "static/media/vitality-vault.png": "/React-Portfolio/static/media/vitality-vault.b815ab4a44008f7c69d1.png",
     "static/media/github-logo.png": "/React-Portfolio/static/media/github-logo.1ff6d9646165b7f34af9.png",
     "static/media/linkedin-logo.png": "/React-Portfolio/static/media/linkedin-logo.ba884e1f9ad4362348c1.png",
     "static/media/note-taker.png": "/React-Portfolio/static/media/note-taker.5d304b7cb877155d1906.png",
     "static/media/Monthly-Website.jpg": "/React-Portfolio/static/media/Monthly-Website.82b92dbb5a5ffa5a0e8e.jpg",
     "static/media/twitter-logo.png": "/React-Portfolio/static/media/twitter-logo.57573394db94634d7e1f.png",
     "index.html": "/React-Portfolio/index.html",
-    "main.2f039fb3.css.map": "/React-Portfolio/static/css/main.2f039fb3.css.map",
-    "main.5ba0b809.js.map": "/React-Portfolio/static/js/main.5ba0b809.js.map"
+    "main.49279558.css.map": "/React-Portfolio/static/css/main.49279558.css.map",
+    "main.f7726899.js.map": "/React-Portfolio/static/js/main.f7726899.js.map"
   },
   "entrypoints": [
-    "static/css/main.2f039fb3.css",
-    "static/js/main.5ba0b809.js"
+    "static/css/main.49279558.css",
+    "static/js/main.f7726899.js"
   ]
 }
