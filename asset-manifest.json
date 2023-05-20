@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.49279558.css",
-    "main.js": "/React-Portfolio/static/js/main.3a57b2e4.js",
+    "main.css": "/React-Portfolio/static/css/main.3fd546f3.css",
+    "main.js": "/React-Portfolio/static/js/main.458dc888.js",
+    "static/media/Profile-photo1.JPG": "/React-Portfolio/static/media/Profile-photo1.ebbe38c8c6292651bec8.JPG",
     "static/media/Blood.png": "/React-Portfolio/static/media/Blood.84c7d8c3d266bbefcddd.png",
     "static/media/pokedex-gif.gif": "/React-Portfolio/static/media/pokedex-gif.c2a02567b7dabdcdf46a.gif",
     "static/media/coding-gif.gif": "/React-Portfolio/static/media/coding-gif.46dc6e8ce87c971e2ae0.gif",
-    "static/media/profile-photo.JPG": "/React-Portfolio/static/media/profile-photo.550def6c7700d25c0914.JPG",
     "static/media/password-gif.gif": "/React-Portfolio/static/media/password-gif.f8c0084234827a73f596.gif",
     "static/media/prework-study-guide.png": "/React-Portfolio/static/media/prework-study-guide.7a4d5cc06ccefd810a5d.png",
     "static/media/blog-gif.gif": "/React-Portfolio/static/media/blog-gif.4ac69580778eeaf89996.gif",
@@ -19,11 +19,11 @@
     "static/media/Monthly-Website.jpg": "/React-Portfolio/static/media/Monthly-Website.82b92dbb5a5ffa5a0e8e.jpg",
     "static/media/twitter-logo.png": "/React-Portfolio/static/media/twitter-logo.57573394db94634d7e1f.png",
     "index.html": "/React-Portfolio/index.html",
-    "main.49279558.css.map": "/React-Portfolio/static/css/main.49279558.css.map",
-    "main.3a57b2e4.js.map": "/React-Portfolio/static/js/main.3a57b2e4.js.map"
+    "main.3fd546f3.css.map": "/React-Portfolio/static/css/main.3fd546f3.css.map",
+    "main.458dc888.js.map": "/React-Portfolio/static/js/main.458dc888.js.map"
   },
   "entrypoints": [
-    "static/css/main.49279558.css",
-    "static/js/main.3a57b2e4.js"
+    "static/css/main.3fd546f3.css",
+    "static/js/main.458dc888.js"
   ]
 }
