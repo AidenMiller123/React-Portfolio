@@ -1,6 +1,8 @@
 import React from 'react';
 import  '../../styles/Section.css';
-import resume from '../../images/Weather.png'
+import resume from '../../images/Resume-Aiden-Miller.pdf'
+
+
 
 export default function Resume() {
   return (

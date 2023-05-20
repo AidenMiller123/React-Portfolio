@@ -11,7 +11,7 @@ function footerLinks() {
                 <a className="me-4" href="https://github.com/AidenMiller123" target="_blank" rel="noopener noreferrer">
                     <img src={logo} alt='Github Logo' className='github-logo footer-logo'></img>
                 </a>
-                <a className="ms-4" href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+                <a className="ms-4" href="https://www.linkedin.com/in/aidenmiller1676/" target="_blank" rel="noopener noreferrer">
                     <img src={linkedin} alt='Linkedin Logo' className='github-logo footer-logo'></img>
                 </a>
                 <a className="ms-4" href="https://twitter.com/AidenMiller321" target="_blank" rel="noopener noreferrer">
