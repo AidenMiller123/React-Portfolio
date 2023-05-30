@@ -1,1030 +1,731 @@
  html {
-    background-color:  #203A5C;
+     background-color: #203A5C;
 
-}
-
-
-.section{
-    background-color:  #203A5C;
-    color: white;
-
-}
-
-.footer{
-    background-color:  #203A5C;
-}
-.contactForm{
-    width: 500px;
-    font-size: 20px;
-}
-
-.form-input{
-    width: 600px;
-    margin-bottom: 25px;
-    
-}
-
-textarea {
-    height: 150px;
-}
-
-.postBtn{
-    width: 600px;
-    height: 45px;
-}
-
-.profile{
-    margin-top: 15px;
-    margin-left: 20px;
-    width: 140px;
-    height: 140x;
-    border-radius: 42%
-}
-
-.Containers{
-    padding-left: 250px;
-    padding-top: 25px;
-    padding-right: 250px;
-}
-
-.aboutMeHeader{
-    font-family: 'Bruno Ace SC', cursive;
-}
-
-.aboutMeContent{
-    font-size: 25px;
-    text-align: left;
-}
-
-.portfolio-title{
-    font-family: 'Bruno Ace SC', cursive;
-}
-
-.contact-title{
-    font-family: 'Bruno Ace SC', cursive;
-}
-
-.resume-title{
-    font-family: 'Bruno Ace SC', cursive;
-    margin-bottom: 0;
-}
-
-.work-content{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 40px 40px;
-    padding-top: 20px;
-}
-
-.card-prework{
-    background-image: url("../images/prework-study-guide.png");
-    width: 700px;
-    height: 400px;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    text-align: center;
-    padding: 0;
-    position: relative;
-    border-width: medium;
-}
-
-.card-password {
-    background-image: url("../images/password-gif.gif");
-    width: 700px;
-    height: 400px;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    text-align: center;
-    padding: 0;
-    position: relative;
-    border-width: medium;
-
-}
-
-.card-pokedex {
-    background-image: url("../images/pokedex-gif.gif");
-    width: 700px;
-    height: 400px;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    text-align: center;
-    padding: 0;
-    position: relative;
-    border-width: medium;
-
-}
-
-.card-quiz {
-    background-image: url("../images/coding-gif.gif");
-    width: 700px;
-    height: 400px;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    text-align: center;
-    padding: 0;
-    position: relative;
-    border-width: medium;
-
-}
-.card-weather {
-    background-image: url("../images/Weather.png");
-    width: 700px;
-    height: 400px;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    text-align: center;
-    padding: 0;
-    position: relative;
-    border-width: medium;
-
-}
-.card-bloodDonation{
-    background-image: url("../images/Blood.png");
-    width: 700px;
-    height: 400px;
-    background-size: cover;
-    background-position:center center;
-    background-repeat: no-repeat;
-    text-align: center;
-    padding: 0;
-    position: relative;
-    border-width: medium;
-
-}
-
-.card-techBlog{
-    background-image: url("../images/blog-gif.gif");
-    width: 700px;
-    height: 400px;
-    background-size:cover;
-    background-position:center center;
-    background-repeat: no-repeat;
-    text-align: center;
-    padding: 0;
-    position: relative;
-    border-width: medium;
-}
-
-.card-workday{
-    background-image: url("../images/workday-gif.gif");
-    width: 700px;
-    height: 400px;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    text-align: center;
-    padding: 0;
-    position: relative;
-    border-width: medium;
-}
-
-.card-note{
-    background-image: url("../images/note-taker.png");
-    width: 700px;
-    height: 400px;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    text-align: center;
-    padding: 0;
-    position: relative;
-    border-width: medium;
-}
-
-.card-vitality{
-    background-image: url("../images/vitality-vault.png");
-    width: 700px;
-    height: 400px;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    text-align: center;
-    padding: 0;
-    position: relative;
-    border-width: medium;
-}
-
-.card-pokedex .port-container {
-    display: block;
-    width: 100%;
-    height: 100%;
-    text-decoration: none;
-}
-
-.card-pokedex .port-container  .title-port{
-    display: none;
-    filter:opacity(50%);
-    color: #6aa7f7;
-}
-
-.card-pokedex .port-container  .logo-portfolio{
-    display: none;
-    filter: brightness(200%);
-}
-
-.card-pokedex .port-container  h4{
-    display: none;
-}
-
-.card-pokedex .port-container  .title-port:hover{
-   filter: opacity(100%);
-}
-
-.card-pokedex .port-container:hover  .title-port{
-    display: block;
-    font-size: 45px;
-    padding-top: 50px;
-    color: #0d294e;
-}
-
-.card-pokedex .port-container:hover  .logo-portfolio{
-    display: block;
-    padding-top: 50px;
-    padding-left: 35px;
-    filter: opacity(50%);
-}
-
-.card-pokedex .port-container:hover  .logo-portfolio:hover{
-    filter: opacity(100%);
-}
-
-
-.card-pokedex .port-container:hover  .title-port img{
-    height: 95px;
-    width: 95px;
-}
-
-.card-pokedex .port-container:hover  h4{
-    display: block;
-    font-size: 35px;
-    padding-top: 50px;
-    color: #0d294e;
-}
-
-.card-pokedex .title-port{
-    text-decoration: none;
-    font-size: 45px;
-    font-weight: bold;
-}
-
-.card-pokedex:hover  {
-    border: solid rgb(223, 145, 2);
-    background-image: 
-    /* top, transparent red */
-    linear-gradient(
-      rgba(255, 255, 255, 0.45), 
-      rgba(255, 255, 255, 0.45)
-    ),
-    /* your image */
-    url("../images/pokedex-gif.gif");
-}
-
-.card-prework .port-container {
-    display: block;
-    width: 100%;
-    height: 100%;
-    text-decoration: none;
-}
-
-.card-prework .title-port{
-    text-decoration: none;
-    font-size: 45px;
-    font-weight: bold;
-}
-
-.card-prework .port-container  .logo-portfolio{
-    display: none;
-    filter: brightness(200%);
-}
-
-.card-prework .port-container  h4{
-    display: none;
-}
-
-.card-prework:hover{
-    border: solid rgb(223, 145, 2);
-    background-image: 
-    /* top, transparent red */
-    linear-gradient(
-      rgba(255, 255, 255, 0.45), 
-      rgba(255, 255, 255, 0.45)
-    ),
-    /* your image */
-    url("../images/prework-study-guide.png");
-    background-size: cover;
-    background-position: center center;
-}
-
-.card-prework .port-container .title-port{
-   display: none;
-    filter:opacity(50%);
-    color: #6aa7f7;
-}
-
-.card-prework .port-container  .title-port:hover{
-   filter: opacity(100%);
-}
-
-.card-prework .port-container:hover .title-port{
- display: block;
-    font-size: 45px;
-    padding-top: 50px;
-    color: #0d294e;
-   
-}
-
-.card-prework .port-container:hover  .logo-portfolio{
-    display: block;
-    padding-top: 60px;
-    padding-left: 35px;
-    filter: opacity(50%);
-}
-
-.card-prework .port-container:hover  .logo-portfolio:hover{
-    filter: opacity(100%);
-}
-
-.card-prework .port-container:hover  .title-port img{
-    height: 10px;
-    width: 10px;
-}
-
-.card-prework .port-container:hover  h4{
-    display: block;
-    font-size: 35px;
-    padding-top: 50px;
-    color: #0d294e;
-}
-
-.card-password .title-port{
-    text-decoration: none;
-    font-size: 45px;
-    font-weight: bold;
-}
-
-.card-password .port-container {
-    display: block;
-    width: 100%;
-    height: 100%;
-    text-decoration: none;
-}
-
-.card-password .port-container .title-port{
-    display: none;
-    filter:opacity(50%);
-    color: #6aa7f7;
-}
-
-.card-password .port-container  .logo-portfolio{
-    display: none;
-    filter: brightness(200%);
-}
-
-.card-password .port-container  h4{
-    display: none;
-}
-
-.card-password .port-container  .title-port:hover{
-    filter: opacity(100%);
  }
 
-.card-password .port-container:hover .title-port{
-    display: block;
-    font-size: 45px;
-    padding-top: 50px;
-    color: #0d294e;
-}
 
-.card-password .port-container:hover  .logo-portfolio{
-    display: block;
-    padding-top: 60px;
-    padding-left: 35px;
-    filter: opacity(50%);
-}
+ .section {
+     background-color: #203A5C;
+     color: white;
 
-.card-password .port-container:hover  .logo-portfolio:hover{
-    filter: opacity(100%);
-}
-
-.card-password .port-container:hover  h4{
-    display: block;
-    font-size: 35px;
-    padding-top: 50px;
-    color: #0d294e;
-}
-
-.card-password:hover  {
-    border: solid rgb(223, 145, 2);
-    background-image: 
-    /* top, transparent red */
-    linear-gradient(
-      rgba(255, 255, 255, 0.45), 
-      rgba(255, 255, 255, 0.45)
-    ),
-    /* your image */
-    url("../images/password-gif.gif");
-}
-
-.card-quiz .title-port{
-    text-decoration: none;
-    font-size: 45px;
-    font-weight: bold;
-}
-
-.card-quiz .port-container {
-    display: block;
-    width: 100%;
-    height: 100%;
-    text-decoration: none;
-}
-
-.card-quiz .port-container .title-port {
-    display: none;
-    filter:opacity(50%);
-    color: #6aa7f7;
-}
-
-.card-quiz .port-container .logo-portfolio{
-    display: none;
-    filter: brightness(200%);
-}
-
-.card-quiz .port-container  h4{
-    display: none;
-}
-
-.card-quiz .port-container  .title-port:hover{
-    filter: opacity(100%);
  }
- 
-
-.card-quiz .port-container:hover .title-port {
-    display: block;
-    font-size: 45px;
-    padding-top: 50px;
-    color: #0d294e;
-}
-.card-quiz .port-container:hover  .logo-portfolio{
-    display: block;
-    padding-top: 50px;
-    padding-left: 35px;
-    filter: opacity(50%);
-}
-
-.card-quiz .port-container:hover  .logo-portfolio:hover{
-    filter: opacity(100%);
-}
-
-
-.card-quiz .port-container:hover  .title-port img{
-    height: 95px;
-    width: 95px;
-}
-
-.card-quiz .port-container:hover  h4{
-    display: block;
-    font-size: 35px;
-    padding-top: 50px;
-    color: #0d294e;
-}
-
-.card-quiz:hover  {
-    border: solid rgb(223, 145, 2);
-    background-image: 
-    /* top, transparent red */
-    linear-gradient(
-      rgba(255, 255, 255, 0.45), 
-      rgba(255, 255, 255, 0.45)
-    ),
-    /* your image */
-    url("../images/coding-gif.gif");
-}
-
-
-.card-weather .title-port{
-    text-decoration: none;
-    font-size: 45px;
-    font-weight: bold;
-}
-
-.card-weather .port-container {
-    display: block;
-    width: 100%;
-    height: 100%;
-    text-decoration: none;
-}
-
-.card-weather .port-container  .title-port{
-    display: none;
-    filter:opacity(50%);
-    color: #6aa7f7;
-}
-
-.card-weather .port-container .logo-portfolio{
-    display: none;
-    filter: brightness(200%);
-}
-
-.card-weather .port-container  h4{
-    display: none;
-}
-
-.card-weather .port-container  .title-port:hover{
-   filter: opacity(100%);
-}
-
-.card-weather .port-container:hover  .title-port{
-    display: block;
-    font-size: 45px;
-    padding-top: 50px;
-    color: #0d294e;
-}
-
-.card-weather .port-container:hover  .logo-portfolio{
-    display: block;
-    padding-top: 50px;
-    padding-left: 35px;
-    filter: opacity(50%);
-}
-
-.card-weather .port-container:hover  .logo-portfolio:hover{
-    filter: opacity(100%);
-}
-
-
-.card-weather .port-container:hover  .title-port img{
-    height: 95px;
-    width: 95px;
-}
-
-.card-weather .port-container:hover  h4{
-    display: block;
-    font-size: 35px;
-    padding-top: 50px;
-    color: #0d294e;
-}
-
-.card-weather:hover  {
-    border: solid rgb(223, 145, 2);
-    background-image: 
-    /* top, transparent red */
-    linear-gradient(
-      rgba(255, 255, 255, 0.45), 
-      rgba(255, 255, 255, 0.45)
-    ),
-    /* your image */
-    url("../images/Weather.png");
-}
-
-.card-bloodDonation .title-port{
-    text-decoration: none;
-    font-size: 45px;
-    font-weight: bold;
-}
-
-.card-bloodDonation .port-container {
-    display: block;
-    width: 100%;
-    height: 100%;
-    text-decoration: none;
-}
-
-.card-bloodDonation .port-container .title-port{
-    display: none;
-    filter:opacity(50%);
-    color: #6aa7f7;
-}
-
-.card-bloodDonation .port-container  .logo-portfolio{
-    display: none;
-    filter: brightness(200%);
-}
-
-.card-bloodDonation .port-container  h4{
-    display: none;
-}
-
-.card-bloodDonation .port-container  .title-port:hover{
-   filter: opacity(100%);
-}
-
-.card-bloodDonation .port-container:hover  .title-port{
-    display: block;
-    font-size: 45px;
-    padding-top: 50px;
-    color: #0d294e;
-}
-
-.card-bloodDonation .port-container:hover  .logo-portfolio{
-    display: block;
-    padding-top: 50px;
-    padding-left: 35px;
-    filter: opacity(50%);
-}
-
-.card-bloodDonation .port-container:hover  .logo-portfolio:hover{
-    filter: opacity(100%);
-}
-
-
-.card-bloodDonation .port-container:hover  .title-port img{
-    height: 95px;
-    width: 95px;
-}
-
-.card-bloodDonation .port-container:hover  h4{
-    display: block;
-    font-size: 35px;
-    padding-top: 50px;
-    color: #0d294e;
-}
-
-.card-bloodDonation:hover  {
-    border: solid rgb(223, 145, 2);
-    background-image: 
-    /* top, transparent red */
-    linear-gradient(
-      rgba(255, 255, 255, 0.45), 
-      rgba(255, 255, 255, 0.45)
-    ),
-    /* your image */
-    url("../images/Blood.png");
-}
-
-.card-techBlog .title-port{
-    text-decoration: none;
-    font-size: 45px;
-    font-weight: bold;
-}
-
-.card-techBlog .port-container {
-    display: block;
-    width: 100%;
-    height: 100%;
-    text-decoration: none;
-}
-
-.card-techBlog .port-container  .title-port{
-    display: none;
-    filter:opacity(50%);
-    color: #6aa7f7;
-}
-
-.card-techBlog .port-container  .logo-portfolio{
-    display: none;
-    filter: brightness(200%);
-}
-
-.card-techBlog .port-container  h4{
-    display: none;
-}
-
-.card-techBlog .port-container  .title-port:hover{
-   filter: opacity(100%);
-}
-
-.card-techBlog .port-container:hover  .title-port{
-    display: block;
-    font-size: 45px;
-    padding-top: 50px;
-    color: #0d294e;
-}
-
-.card-techBlog .port-container:hover  .logo-portfolio{
-    display: block;
-    padding-top: 50px;
-    padding-left: 35px;
-    filter: opacity(50%);
-}
-
-.card-techBlog .port-container:hover  .logo-portfolio:hover{
-    filter: opacity(100%);
-}
-
-
-.card-techBlog .port-container:hover  .title-port img{
-    height: 95px;
-    width: 95px;
-}
-
-.card-techBlog .port-container:hover  h4{
-    display: block;
-    font-size: 35px;
-    padding-top: 50px;
-    color: #0d294e;
-}
-
-.card-techBlog:hover  {
-    border: solid rgb(223, 145, 2);
-    background-image: 
-    /* top, transparent red */
-    linear-gradient(
-      rgba(255, 255, 255, 0.45), 
-      rgba(255, 255, 255, 0.45)
-    ),
-    /* your image */
-    url("../images/blog-gif.gif");
-}
-
-.card-workday .title-port{
-    text-decoration: none;
-    font-size: 45px;
-    font-weight: bold;
-}
-
-.card-workday .port-container {
-    display: block;
-    width: 100%;
-    height: 100%;
-    text-decoration: none;
-}
-
-.card-workday .port-container .title-port{
-    display: none;
-    filter:opacity(50%);
-    color: #6aa7f7;
-}
-
-.card-workday .port-container .logo-portfolio{
-    display: none;
-    filter: brightness(200%);
-}
-
-.card-workday .port-container  h4{
-    display: none;
-}
-
-.card-workday .port-container .title-port:hover{
-   filter: opacity(100%);
-}
-
-.card-workday .port-container:hover  .title-port{
-    display: block;
-    font-size: 45px;
-    padding-top: 50px;
-    color: #0d294e;
-}
-
-.card-workday .port-container:hover .logo-portfolio{
-    display: block;
-    padding-top: 50px;
-    padding-left: 35px;
-    filter: opacity(50%);
-}
-
-.card-workday .port-container:hover  .logo-portfolio:hover{
-    filter: opacity(100%);
-}
-
-
-.card-workday .port-container:hover  .title-port img{
-    height: 95px;
-    width: 95px;
-}
-
-.card-workday .port-container:hover  h4{
-    display: block;
-    font-size: 35px;
-    padding-top: 50px;
-    color: #0d294e;
-}
-
-.card-workday:hover  {
-    border: solid rgb(223, 145, 2);
-    background-image: 
-    /* top, transparent red */
-    linear-gradient(
-      rgba(255, 255, 255, 0.45), 
-      rgba(255, 255, 255, 0.45)
-    ),
-    /* your image */
-    url("../images/workday-gif.gif");
-}
-
-
-.card-note .title-port{
-    text-decoration: none;
-    font-size: 45px;
-    font-weight: bold;
-}
-
-.card-note .port-container {
-    display: block;
-    width: 100%;
-    height: 100%;
-    text-decoration: none;
-}
-
-.card-note .port-container .title-port{
-    display: none;
-    filter:opacity(50%);
-    color: #6aa7f7;
-}
-
-.card-note .port-container  .logo-portfolio{
-    display: none;
-    filter: brightness(200%);
-}
-
-.card-note .port-container h4{
-    display: none;
-}
-
-.card-note .port-container .title-port:hover{
-   filter: opacity(100%);
-}
-
-.card-note .port-container:hover  .title-port{
-    display: block;
-    font-size: 45px;
-    padding-top: 50px;
-    color: #0d294e;
-}
-
-.card-note .port-container:hover  .logo-portfolio{
-    display: block;
-    padding-top: 50px;
-    padding-left: 35px;
-    filter: opacity(50%);
-}
-
-.card-note .port-container:hover  .logo-portfolio:hover{
-    filter: opacity(100%);
-}
-
-
-.card-note .port-container:hover  .title-port img{
-    height: 95px;
-    width: 95px;
-}
-
-.card-note .port-container:hover  h4{
-    display: block;
-    font-size: 35px;
-    padding-top: 50px;
-    color: #0d294e;
-}
-
-.card-note:hover  {
-    border: solid rgb(223, 145, 2);
-    background-image: 
-    /* top, transparent red */
-    linear-gradient(
-      rgba(255, 255, 255, 0.45), 
-      rgba(255, 255, 255, 0.45)
-    ),
-    /* your image */
-    url("../images/note-taker.png");
-}
-
-.card-vitality .port-container {
-    display: block;
-    width: 100%;
-    height: 100%;
-    text-decoration: none;
-}
-
-.card-vitality .port-container  .title-port{
-    display: none;
-    filter:opacity(50%);
-    color: #6aa7f7;
-}
-
-.card-vitality .port-container  .logo-portfolio{
-    display: none;
-    filter: brightness(200%);
-}
-
-.card-vitality .port-container  h4{
-    display: none;
-}
-
-.card-vitality .port-container  .title-port:hover{
-   filter: opacity(100%);
-}
-
-.card-vitality .port-container:hover  .title-port{
-    display: block;
-    font-size: 45px;
-    padding-top: 50px;
-    color: #0d294e;
-}
-
-.card-vitality .port-container:hover  .logo-portfolio{
-    display: block;
-    padding-top: 50px;
-    padding-left: 35px;
-    filter: opacity(50%);
-}
-
-.card-vitality .port-container:hover  .logo-portfolio:hover{
-    filter: opacity(100%);
-}
-
-
-.card-vitality .port-container:hover  .title-port img{
-    height: 95px;
-    width: 95px;
-}
-
-.card-vitality .port-container:hover  h4{
-    display: block;
-    font-size: 35px;
-    padding-top: 50px;
-    color: #0d294e;
-}
-
-.card-vitality .title-port{
-    text-decoration: none;
-    font-size: 45px;
-    font-weight: bold;
-}
-
-.card-vitality:hover  {
-    border: solid rgb(223, 145, 2);
-    background-image: 
-    /* top, transparent red */
-    linear-gradient(
-      rgba(255, 255, 255, 0.45), 
-      rgba(255, 255, 255, 0.45)
-    ),
-    /* your image */
-    url("../images/vitality-vault.png");
-}
-
-
-.portfolioContainers{
-    padding-left: 250px;
-    padding-top: 25px;
-    padding-right: 5px;
-}
-
-.github-logo{
-    width: 100px;
-    height: 100px;
-    filter: opacity(50%);
-}
-
-.twitter-logo{
-    margin-left: 15px;
-    filter: invert(94%) sepia(99%) saturate(2%) hue-rotate(315deg) brightness(95%) contrast(101%);
-}
-
-
-.twitter-logo:hover{
-    filter: invert(94%) sepia(99%) saturate(2%) hue-rotate(315deg) brightness(1100%) contrast(101%);
-}
-
-.footer-logo{
-    width: 70px;
-    height: 70px;
-    filter: invert(94%) sepia(99%) saturate(2%) hue-rotate(315deg) brightness(50%) contrast(101%);
-}
-
-.footer-logo:hover{
-    width: 70px;
-    height: 70px;
-    filter: invert(94%) sepia(99%) saturate(2%) hue-rotate(315deg) brightness(108%) contrast(101%);
-}
-
-
-/* .github-logo:hover{
+
+ .footer {
+     background-color: #203A5C;
+ }
+
+ .contactForm {
+     width: 500px;
+     font-size: 20px;
+ }
+
+ .form-input {
+     width: 600px;
+     margin-bottom: 25px;
+
+ }
+
+ textarea {
+     height: 150px;
+ }
+
+ .postBtn {
+     width: 600px;
+     height: 45px;
+ }
+
+ .profile {
+     margin-top: 15px;
+     margin-left: 20px;
+     width: 140px;
+     height: 140x;
+     border-radius: 42%
+ }
+
+ .Containers {
+     padding-left: 250px;
+     padding-top: 25px;
+     padding-right: 250px;
+ }
+
+ .aboutMeHeader {
+     font-family: 'Bruno Ace SC', cursive;
+ }
+
+ .aboutMeContent {
+     font-size: 25px;
+     text-align: left;
+ }
+
+ .portfolio-title {
+     font-family: 'Bruno Ace SC', cursive;
+ }
+
+ .contact-title {
+     font-family: 'Bruno Ace SC', cursive;
+ }
+
+ .resume-title {
+     font-family: 'Bruno Ace SC', cursive;
+     margin-bottom: 0;
+ }
+
+ .work-content {
+     display: flex;
+     flex-wrap: wrap;
+     gap: 40px 40px;
+     padding-top: 20px;
+ }
+
+ .card-quiz {
+     background-image: url("../images/coding-gif.gif");
+     width: 700px;
+     height: 400px;
+     background-size: cover;
+     background-position: center center;
+     background-repeat: no-repeat;
+     text-align: center;
+     padding: 0;
+     position: relative;
+     border-width: medium;
+
+ }
+
+ .card-weather {
+     background-image: url("../images/Weather.png");
+     width: 700px;
+     height: 400px;
+     background-size: cover;
+     background-position: center center;
+     background-repeat: no-repeat;
+     text-align: center;
+     padding: 0;
+     position: relative;
+     border-width: medium;
+
+ }
+
+ .card-bloodDonation {
+     background-image: url("../images/Blood.png");
+     width: 700px;
+     height: 400px;
+     background-size: cover;
+     background-position: center center;
+     background-repeat: no-repeat;
+     text-align: center;
+     padding: 0;
+     position: relative;
+     border-width: medium;
+
+ }
+
+ .card-techBlog {
+     background-image: url("../images/blog-gif.gif");
+     width: 700px;
+     height: 400px;
+     background-size: cover;
+     background-position: center center;
+     background-repeat: no-repeat;
+     text-align: center;
+     padding: 0;
+     position: relative;
+     border-width: medium;
+ }
+
+ .card-workday {
+     background-image: url("../images/workday-gif.gif");
+     width: 700px;
+     height: 400px;
+     background-size: cover;
+     background-position: center center;
+     background-repeat: no-repeat;
+     text-align: center;
+     padding: 0;
+     position: relative;
+     border-width: medium;
+ }
+
+ .card-vitality {
+     background-image: url("../images/vitality-vault.png");
+     width: 700px;
+     height: 400px;
+     background-size: cover;
+     background-position: center center;
+     background-repeat: no-repeat;
+     text-align: center;
+     padding: 0;
+     position: relative;
+     border-width: medium;
+ }
+
+ .card-quiz .title-port {
+     text-decoration: none;
+     font-size: 45px;
+     font-weight: bold;
+ }
+
+ .card-quiz .port-container {
+     display: block;
+     width: 100%;
+     height: 100%;
+     text-decoration: none;
+ }
+
+ .card-quiz .port-container .title-port {
+     display: none;
+     filter: opacity(50%);
+     color: #6aa7f7;
+ }
+
+ .card-quiz .port-container .logo-portfolio {
+     display: none;
+     filter: brightness(200%);
+ }
+
+ .card-quiz .port-container h4 {
+     display: none;
+ }
+
+ .card-quiz .port-container .title-port:hover {
+     filter: opacity(100%);
+ }
+
+
+ .card-quiz .port-container:hover .title-port {
+     display: block;
+     font-size: 45px;
+     padding-top: 50px;
+     color: #0d294e;
+ }
+
+ .card-quiz .port-container:hover .logo-portfolio {
+     display: block;
+     padding-top: 50px;
+     padding-left: 35px;
+     filter: opacity(50%);
+ }
+
+ .card-quiz .port-container:hover .logo-portfolio:hover {
+     filter: opacity(100%);
+ }
+
+
+ .card-quiz .port-container:hover .title-port img {
+     height: 95px;
+     width: 95px;
+ }
+
+ .card-quiz .port-container:hover h4 {
+     display: block;
+     font-size: 35px;
+     padding-top: 50px;
+     color: #0d294e;
+ }
+
+ .card-quiz:hover {
+     border: solid rgb(223, 145, 2);
+     background-image:
+         /* top, transparent red */
+         linear-gradient(rgba(255, 255, 255, 0.45),
+             rgba(255, 255, 255, 0.45)),
+         /* your image */
+         url("../images/coding-gif.gif");
+ }
+
+
+ .card-weather .title-port {
+     text-decoration: none;
+     font-size: 45px;
+     font-weight: bold;
+ }
+
+ .card-weather .port-container {
+     display: block;
+     width: 100%;
+     height: 100%;
+     text-decoration: none;
+ }
+
+ .card-weather .port-container .title-port {
+     display: none;
+     filter: opacity(50%);
+     color: #6aa7f7;
+ }
+
+ .card-weather .port-container .logo-portfolio {
+     display: none;
+     filter: brightness(200%);
+ }
+
+ .card-weather .port-container h4 {
+     display: none;
+ }
+
+ .card-weather .port-container .title-port:hover {
+     filter: opacity(100%);
+ }
+
+ .card-weather .port-container:hover .title-port {
+     display: block;
+     font-size: 45px;
+     padding-top: 50px;
+     color: #0d294e;
+ }
+
+ .card-weather .port-container:hover .logo-portfolio {
+     display: block;
+     padding-top: 50px;
+     padding-left: 35px;
+     filter: opacity(50%);
+ }
+
+ .card-weather .port-container:hover .logo-portfolio:hover {
+     filter: opacity(100%);
+ }
+
+
+ .card-weather .port-container:hover .title-port img {
+     height: 95px;
+     width: 95px;
+ }
+
+ .card-weather .port-container:hover h4 {
+     display: block;
+     font-size: 35px;
+     padding-top: 50px;
+     color: #0d294e;
+ }
+
+ .card-weather:hover {
+     border: solid rgb(223, 145, 2);
+     background-image:
+         /* top, transparent red */
+         linear-gradient(rgba(255, 255, 255, 0.45),
+             rgba(255, 255, 255, 0.45)),
+         /* your image */
+         url("../images/Weather.png");
+ }
+
+ .card-bloodDonation .title-port {
+     text-decoration: none;
+     font-size: 45px;
+     font-weight: bold;
+ }
+
+ .card-bloodDonation .port-container {
+     display: block;
+     width: 100%;
+     height: 100%;
+     text-decoration: none;
+ }
+
+ .card-bloodDonation .port-container .title-port {
+     display: none;
+     filter: opacity(50%);
+     color: #6aa7f7;
+ }
+
+ .card-bloodDonation .port-container .logo-portfolio {
+     display: none;
+     filter: brightness(200%);
+ }
+
+ .card-bloodDonation .port-container h4 {
+     display: none;
+ }
+
+ .card-bloodDonation .port-container .title-port:hover {
+     filter: opacity(100%);
+ }
+
+ .card-bloodDonation .port-container:hover .title-port {
+     display: block;
+     font-size: 45px;
+     padding-top: 50px;
+     color: #0d294e;
+ }
+
+ .card-bloodDonation .port-container:hover .logo-portfolio {
+     display: block;
+     padding-top: 50px;
+     padding-left: 35px;
+     filter: opacity(50%);
+ }
+
+ .card-bloodDonation .port-container:hover .logo-portfolio:hover {
+     filter: opacity(100%);
+ }
+
+
+ .card-bloodDonation .port-container:hover .title-port img {
+     height: 95px;
+     width: 95px;
+ }
+
+ .card-bloodDonation .port-container:hover h4 {
+     display: block;
+     font-size: 35px;
+     padding-top: 50px;
+     color: #0d294e;
+ }
+
+ .card-bloodDonation:hover {
+     border: solid rgb(223, 145, 2);
+     background-image:
+         /* top, transparent red */
+         linear-gradient(rgba(255, 255, 255, 0.45),
+             rgba(255, 255, 255, 0.45)),
+         /* your image */
+         url("../images/Blood.png");
+ }
+
+ .card-techBlog .title-port {
+     text-decoration: none;
+     font-size: 45px;
+     font-weight: bold;
+ }
+
+ .card-techBlog .port-container {
+     display: block;
+     width: 100%;
+     height: 100%;
+     text-decoration: none;
+ }
+
+ .card-techBlog .port-container .title-port {
+     display: none;
+     filter: opacity(50%);
+     color: #6aa7f7;
+ }
+
+ .card-techBlog .port-container .logo-portfolio {
+     display: none;
+     filter: brightness(200%);
+ }
+
+ .card-techBlog .port-container h4 {
+     display: none;
+ }
+
+ .card-techBlog .port-container .title-port:hover {
+     filter: opacity(100%);
+ }
+
+ .card-techBlog .port-container:hover .title-port {
+     display: block;
+     font-size: 45px;
+     padding-top: 50px;
+     color: #0d294e;
+ }
+
+ .card-techBlog .port-container:hover .logo-portfolio {
+     display: block;
+     padding-top: 50px;
+     padding-left: 35px;
+     filter: opacity(50%);
+ }
+
+ .card-techBlog .port-container:hover .logo-portfolio:hover {
+     filter: opacity(100%);
+ }
+
+
+ .card-techBlog .port-container:hover .title-port img {
+     height: 95px;
+     width: 95px;
+ }
+
+ .card-techBlog .port-container:hover h4 {
+     display: block;
+     font-size: 35px;
+     padding-top: 50px;
+     color: #0d294e;
+ }
+
+ .card-techBlog:hover {
+     border: solid rgb(223, 145, 2);
+     background-image:
+         /* top, transparent red */
+         linear-gradient(rgba(255, 255, 255, 0.45),
+             rgba(255, 255, 255, 0.45)),
+         /* your image */
+         url("../images/blog-gif.gif");
+ }
+
+ .card-workday .title-port {
+     text-decoration: none;
+     font-size: 45px;
+     font-weight: bold;
+ }
+
+ .card-workday .port-container {
+     display: block;
+     width: 100%;
+     height: 100%;
+     text-decoration: none;
+ }
+
+ .card-workday .port-container .title-port {
+     display: none;
+     filter: opacity(50%);
+     color: #6aa7f7;
+ }
+
+ .card-workday .port-container .logo-portfolio {
+     display: none;
+     filter: brightness(200%);
+ }
+
+ .card-workday .port-container h4 {
+     display: none;
+ }
+
+ .card-workday .port-container .title-port:hover {
+     filter: opacity(100%);
+ }
+
+ .card-workday .port-container:hover .title-port {
+     display: block;
+     font-size: 45px;
+     padding-top: 50px;
+     color: #0d294e;
+ }
+
+ .card-workday .port-container:hover .logo-portfolio {
+     display: block;
+     padding-top: 50px;
+     padding-left: 35px;
+     filter: opacity(50%);
+ }
+
+ .card-workday .port-container:hover .logo-portfolio:hover {
+     filter: opacity(100%);
+ }
+
+
+ .card-workday .port-container:hover .title-port img {
+     height: 95px;
+     width: 95px;
+ }
+
+ .card-workday .port-container:hover h4 {
+     display: block;
+     font-size: 35px;
+     padding-top: 50px;
+     color: #0d294e;
+ }
+
+ .card-workday:hover {
+     border: solid rgb(223, 145, 2);
+     background-image:
+         /* top, transparent red */
+         linear-gradient(rgba(255, 255, 255, 0.45),
+             rgba(255, 255, 255, 0.45)),
+         /* your image */
+         url("../images/workday-gif.gif");
+ }
+
+ .card-vitality .port-container {
+     display: block;
+     width: 100%;
+     height: 100%;
+     text-decoration: none;
+ }
+
+ .card-vitality .port-container .title-port {
+     display: none;
+     filter: opacity(50%);
+     color: #6aa7f7;
+ }
+
+ .card-vitality .port-container .logo-portfolio {
+     display: none;
+     filter: brightness(200%);
+ }
+
+ .card-vitality .port-container h4 {
+     display: none;
+ }
+
+ .card-vitality .port-container .title-port:hover {
+     filter: opacity(100%);
+ }
+
+ .card-vitality .port-container:hover .title-port {
+     display: block;
+     font-size: 45px;
+     padding-top: 50px;
+     color: #0d294e;
+ }
+
+ .card-vitality .port-container:hover .logo-portfolio {
+     display: block;
+     padding-top: 50px;
+     padding-left: 35px;
+     filter: opacity(50%);
+ }
+
+ .card-vitality .port-container:hover .logo-portfolio:hover {
+     filter: opacity(100%);
+ }
+
+
+ .card-vitality .port-container:hover .title-port img {
+     height: 95px;
+     width: 95px;
+ }
+
+ .card-vitality .port-container:hover h4 {
+     display: block;
+     font-size: 35px;
+     padding-top: 50px;
+     color: #0d294e;
+ }
+
+ .card-vitality .title-port {
+     text-decoration: none;
+     font-size: 45px;
+     font-weight: bold;
+ }
+
+ .card-vitality:hover {
+     border: solid rgb(223, 145, 2);
+     background-image:
+         /* top, transparent red */
+         linear-gradient(rgba(255, 255, 255, 0.45),
+             rgba(255, 255, 255, 0.45)),
+         /* your image */
+         url("../images/vitality-vault.png");
+ }
+
+
+ .portfolioContainers {
+     padding-left: 250px;
+     padding-top: 25px;
+     padding-right: 5px;
+ }
+
+ .github-logo {
+     width: 100px;
+     height: 100px;
+     filter: opacity(50%);
+ }
+
+ .twitter-logo {
+     margin-left: 15px;
+     filter: invert(94%) sepia(99%) saturate(2%) hue-rotate(315deg) brightness(95%) contrast(101%);
+ }
+
+
+ .twitter-logo:hover {
+     filter: invert(94%) sepia(99%) saturate(2%) hue-rotate(315deg) brightness(1100%) contrast(101%);
+ }
+
+ .footer-logo {
+     width: 70px;
+     height: 70px;
+     filter: invert(94%) sepia(99%) saturate(2%) hue-rotate(315deg) brightness(50%) contrast(101%);
+ }
+
+ .footer-logo:hover {
+     width: 70px;
+     height: 70px;
+     filter: invert(94%) sepia(99%) saturate(2%) hue-rotate(315deg) brightness(108%) contrast(101%);
+ }
+
+
+ /* .github-logo:hover{
     width: 100px;
     height: 100px;
 filter: invert(94%) sepia(99%) saturate(2%) hue-rotate(315deg) brightness(108%) contrast(101%);
 } */
 
 
-.portfolio-logo{
-    width: 100px;
-    height: 100px;
-    filter: opacity(100%);
-}
+ .portfolio-logo {
+     width: 100px;
+     height: 100px;
+     filter: opacity(100%);
+ }
 
-.resume-text{
-    margin-top: 45px;
-    margin-bottom: 25px;
-    font-size: 25px;
-}
+ .email-logo {
+     width: 100px;
+     height: 100px;
+     filter: invert(94%) sepia(99%) saturate(2%) hue-rotate(315deg) brightness(50%) contrast(101%);
+ }
 
-.back-end{
-    margin-bottom: 0;
-    font-size: 25px;
-}
+ .email-logo:hover {
+     width: 100px;
+     height: 100px;
+     filter: invert(94%) sepia(99%) saturate(2%) hue-rotate(315deg) brightness(108%) contrast(101%);
+ }
 
-.front-end{
-    font-size: 25px;
-}
+ .resume-text {
+     margin-top: 45px;
+     margin-bottom: 25px;
+     font-size: 25px;
+ }
 
-.back-end-title{
-    font-size: 45px;
-}
+ .back-end {
+     margin-bottom: 0;
+     font-size: 25px;
+ }
 
-.front-end-title{
-    font-size: 45px;
-}
+ .front-end {
+     font-size: 25px;
+ }
+
+ .back-end-title {
+     font-size: 45px;
+ }
+
+ .front-end-title {
+     font-size: 45px;
+ }
+
+ .about-me-info{
+    padding-bottom: 55px;
+ }
+
+
+
+ @media only screen and (max-width: 480px) {
+
+     .Containers {
+         padding-left: 140px;
+         padding-top: 25px;
+         padding-right: 250px;
+
+     }
+
+     .profile{
+        margin-top: 10px;
+        margin-left: 20px;
+        width: 60px;
+        height: 80px;
+        border-radius: 42%
+     }
+
+     .aboutMeContent {
+        font-size: 15px;
+        text-align: left;
+    }
+    .about-me-info{
+        width: 150px;
+    }
+
+     .footer {
+         padding-left: 30px;
+
+     }
+
+     .github-logo {
+         height: 70px;
+         width: 70px;
+     }
+
+     .footer-logo {
+         height: 50px;
+         width: 50px;
+     }
+
+ }

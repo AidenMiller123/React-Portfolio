@@ -1,6 +1,6 @@
 import React from 'react';
 import  '../../styles/Section.css';
-import resume from '../../images/Resume-Aiden-Miller.pdf'
+import resume from '../../images/Aiden-Miller-Resume.pdf'
 
 
 
