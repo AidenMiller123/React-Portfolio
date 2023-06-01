@@ -53,14 +53,14 @@ export default function Portfolio() {
               </div>
             </div>
           </section>
-          <section className="card-workday">
+          <section className="card-python">
             <div className='port-container' >
               <div className="text-box">
-                <a href="https://aidenmiller123.github.io/Work-Day-Scheduler/" alt="Workday Scheduler" title="Workday Scheduler" target="_blank" rel="noopener noreferrer" className='title-port'>Workday Scheduler </a>
-                <a className="me-4 logo-portfolio" href="https://github.com/AidenMiller123/Work-Day-Scheduler" target="_blank" rel="noopener noreferrer"><img src={logo} alt='Github Logo' className='github-logo portfolio-logo'></img></a>
+                <a href="https://tech-news-blog.herokuapp.com/" alt="Python Newsfeed" title="Python Newsfeed" target="_blank" rel="noopener noreferrer" className='title-port'>Tech Newsfeed </a>
+                <a className="me-4 logo-portfolio" href="https://github.com/AidenMiller123/Python-Newsfeed" target="_blank" rel="noopener noreferrer"><img src={logo} alt='Github Logo' className='github-logo portfolio-logo'></img></a>
               </div>
               <div>
-                <h4>HTML/Javascript/CSS</h4>
+                <h4>Python/Flask/SQLAlchemy/PyMySQL</h4>
               </div>
             </div>
           </section>

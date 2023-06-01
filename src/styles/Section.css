@@ -132,8 +132,8 @@
      border-width: medium;
  }
 
- .card-workday {
-     background-image: url("../images/workday-gif.gif");
+ .card-python {
+     background-image: url("../images/python-newsfeed.png");
      width: 700px;
      height: 400px;
      background-size: cover;
@@ -452,77 +452,77 @@
          url("../images/blog-gif.gif");
  }
 
- .card-workday .title-port {
+ .card-python .title-port {
      text-decoration: none;
      font-size: 45px;
      font-weight: bold;
  }
 
- .card-workday .port-container {
+ .card-python .port-container {
      display: block;
      width: 100%;
      height: 100%;
      text-decoration: none;
  }
 
- .card-workday .port-container .title-port {
+ .card-python .port-container .title-port {
      display: none;
      filter: opacity(50%);
      color: #6aa7f7;
  }
 
- .card-workday .port-container .logo-portfolio {
+ .card-python .port-container .logo-portfolio {
      display: none;
      filter: brightness(200%);
  }
 
- .card-workday .port-container h4 {
+ .card-python .port-container h4 {
      display: none;
  }
 
- .card-workday .port-container .title-port:hover {
+ .card-python .port-container .title-port:hover {
      filter: opacity(100%);
  }
 
- .card-workday .port-container:hover .title-port {
+ .card-python .port-container:hover .title-port {
      display: block;
      font-size: 45px;
      padding-top: 50px;
      color: #0d294e;
  }
 
- .card-workday .port-container:hover .logo-portfolio {
+ .card-python .port-container:hover .logo-portfolio {
      display: block;
      padding-top: 50px;
      padding-left: 35px;
      filter: opacity(50%);
  }
 
- .card-workday .port-container:hover .logo-portfolio:hover {
+ .card-python .port-container:hover .logo-portfolio:hover {
      filter: opacity(100%);
  }
 
 
- .card-workday .port-container:hover .title-port img {
+ .card-python .port-container:hover .title-port img {
      height: 95px;
      width: 95px;
  }
 
- .card-workday .port-container:hover h4 {
+ .card-python .port-container:hover h4 {
      display: block;
      font-size: 35px;
      padding-top: 50px;
      color: #0d294e;
  }
 
- .card-workday:hover {
+ .card-python:hover {
      border: solid rgb(223, 145, 2);
      background-image:
          /* top, transparent red */
          linear-gradient(rgba(255, 255, 255, 0.45),
              rgba(255, 255, 255, 0.45)),
          /* your image */
-         url("../images/workday-gif.gif");
+         url("../images/python-newsfeed.png");
  }
 
  .card-vitality .port-container {
