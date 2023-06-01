@@ -6,8 +6,8 @@
   ## Description
   
   This application is a portfolio for Aiden Miller. It includes a About Me page which describes him and his life. It also includes a portfolio page which includes multiple applications made by Aiden Miller. There is a 
-  Contact Page which allows the user to contact Aiden Miller via email. It also has a resume page whihc shows Aiden's skills and a link to download Aiden's resume. In the footer there is three links, one to Aidens 
-  GitHub page, one to Aiden's linkedin and one to Aiden's twitter.
+  Contact Page which allows the user to contact Aiden Miller via email. It also has a resume page which shows Aiden's skills and a link to download Aiden's resume. In the footer there is four links, one to Aidens 
+  GitHub page, one to Aiden's linkedin, one to Aiden's twitter and One to email Aiden.
   
 
   
