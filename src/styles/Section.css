@@ -91,8 +91,8 @@
 
  }
 
- .card-weather {
-     background-image: url("../images/Weather.png");
+ .card-java {
+     background-image: url("../images/java-tech.png");
      width: 700px;
      height: 400px;
      background-size: cover;
@@ -233,77 +233,77 @@
  }
 
 
- .card-weather .title-port {
+ .card-java .title-port {
      text-decoration: none;
      font-size: 45px;
      font-weight: bold;
  }
 
- .card-weather .port-container {
+ .card-java .port-container {
      display: block;
      width: 100%;
      height: 100%;
      text-decoration: none;
  }
 
- .card-weather .port-container .title-port {
+ .card-java .port-container .title-port {
      display: none;
      filter: opacity(50%);
      color: #6aa7f7;
  }
 
- .card-weather .port-container .logo-portfolio {
+ .card-java .port-container .logo-portfolio {
      display: none;
      filter: brightness(200%);
  }
 
- .card-weather .port-container h4 {
+ .card-java .port-container h4 {
      display: none;
  }
 
- .card-weather .port-container .title-port:hover {
+ .card-java .port-container .title-port:hover {
      filter: opacity(100%);
  }
 
- .card-weather .port-container:hover .title-port {
+ .card-java .port-container:hover .title-port {
      display: block;
      font-size: 45px;
      padding-top: 50px;
      color: #0d294e;
  }
 
- .card-weather .port-container:hover .logo-portfolio {
+ .card-java .port-container:hover .logo-portfolio {
      display: block;
      padding-top: 50px;
      padding-left: 35px;
      filter: opacity(50%);
  }
 
- .card-weather .port-container:hover .logo-portfolio:hover {
+ .card-java .port-container:hover .logo-portfolio:hover {
      filter: opacity(100%);
  }
 
 
- .card-weather .port-container:hover .title-port img {
+ .card-java .port-container:hover .title-port img {
      height: 95px;
      width: 95px;
  }
 
- .card-weather .port-container:hover h4 {
+ .card-java .port-container:hover h4 {
      display: block;
      font-size: 35px;
      padding-top: 50px;
      color: #0d294e;
  }
 
- .card-weather:hover {
+ .card-java:hover {
      border: solid rgb(223, 145, 2);
      background-image:
          /* top, transparent red */
          linear-gradient(rgba(255, 255, 255, 0.45),
              rgba(255, 255, 255, 0.45)),
          /* your image */
-         url("../images/Weather.png");
+         url("../images/java-tech.png");
  }
 
  .card-bloodDonation .title-port {

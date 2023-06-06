@@ -20,14 +20,14 @@ export default function Portfolio() {
               </div>
             </div>
           </section>
-          <section className="card-weather">
+          <section className="card-java">
             <div className='port-container'>
               <div className="text-box">
-                <a href="https://aidenmiller123.github.io/Weather-Dashboard/" alt="Weather Dashboard" title="Weather Dashboard" target="_blank" rel="noopener noreferrer" className='title-port'>Weather Dashboard </a>
-                <a className="me-4 logo-portfolio" href="https://github.com/AidenMiller123/Weather-Dashboard" target="_blank" rel="noopener noreferrer"><img src={logo} alt='Github Logo' className='github-logo portfolio-logo'></img></a>
+                <a href="https://cc-java-api-6.herokuapp.com/" alt="Weather Dashboard" title="Tech News JAva" target="_blank" rel="noopener noreferrer" className='title-port'>Tech News Java</a>
+                <a className="me-4 logo-portfolio" href="https://github.com/AidenMiller123/Tech-News-Java-Api" target="_blank" rel="noopener noreferrer"><img src={logo} alt='Github Logo' className='github-logo portfolio-logo'></img></a>
               </div>
               <div>
-                <h4> HTML/CSS/JavaScript/API's</h4>
+                <h4> Java/Spring/Thymeleaf/MySQL</h4>
               </div>
             </div>
           </section>
