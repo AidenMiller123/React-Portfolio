@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.fc02405d.css",
-    "main.js": "/React-Portfolio/static/js/main.2190e8ed.js",
+    "main.css": "/React-Portfolio/static/css/main.3139aadf.css",
+    "main.js": "/React-Portfolio/static/js/main.147d579b.js",
     "static/media/Profile-photo1.JPG": "/React-Portfolio/static/media/Profile-photo1.ebbe38c8c6292651bec8.JPG",
     "static/media/Blood.png": "/React-Portfolio/static/media/Blood.84c7d8c3d266bbefcddd.png",
+    "static/media/java-tech.png": "/React-Portfolio/static/media/java-tech.3f9045f2b043300135ae.png",
     "static/media/coding-gif.gif": "/React-Portfolio/static/media/coding-gif.46dc6e8ce87c971e2ae0.gif",
     "static/media/blog-gif.gif": "/React-Portfolio/static/media/blog-gif.4ac69580778eeaf89996.gif",
-    "static/media/Weather.png": "/React-Portfolio/static/media/Weather.b1dcd43ca22514bbbcc1.png",
     "static/media/Aiden-Miller-Resume.pdf": "/React-Portfolio/static/media/Aiden-Miller-Resume.e890587a75ea224a8f92.pdf",
     "static/media/vitality-vault.png": "/React-Portfolio/static/media/vitality-vault.b815ab4a44008f7c69d1.png",
     "static/media/python-newsfeed.png": "/React-Portfolio/static/media/python-newsfeed.29a358c83dbe3933497c.png",
@@ -16,11 +16,11 @@
     "static/media/Monthly-Website.jpg": "/React-Portfolio/static/media/Monthly-Website.82b92dbb5a5ffa5a0e8e.jpg",
     "static/media/twitter-logo.png": "/React-Portfolio/static/media/twitter-logo.57573394db94634d7e1f.png",
     "index.html": "/React-Portfolio/index.html",
-    "main.fc02405d.css.map": "/React-Portfolio/static/css/main.fc02405d.css.map",
-    "main.2190e8ed.js.map": "/React-Portfolio/static/js/main.2190e8ed.js.map"
+    "main.3139aadf.css.map": "/React-Portfolio/static/css/main.3139aadf.css.map",
+    "main.147d579b.js.map": "/React-Portfolio/static/js/main.147d579b.js.map"
   },
   "entrypoints": [
-    "static/css/main.fc02405d.css",
-    "static/js/main.2190e8ed.js"
+    "static/css/main.3139aadf.css",
+    "static/js/main.147d579b.js"
   ]
 }
